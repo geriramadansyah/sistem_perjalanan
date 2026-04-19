@@ -290,7 +290,7 @@ function submitSelesai(){
   let spin = document.getElementById("spinSubmit");
   let btn  = document.getElementById("btnSubmit");
 
-  text.innerText = "Loading...";
+  text.innerText = "";
   spin.style.display = "inline-block";
   btn.disabled = true;
 
