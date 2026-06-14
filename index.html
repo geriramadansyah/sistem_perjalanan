@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Aplikasi</title>
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="loginContainer" id="loginPage">
+
+  <div class="loginBox">
+    <h2>Aplikasi Perjalanan</h2>
+
+    <input id="username" placeholder="ID Pengguna">
+    <input id="password" type="password" placeholder="Kata Sandi">
+
+	<button id="btnLogin" onclick="login()">
+	  Masuk
+	</button>
+
+    <div id="errorMsg" class="error"></div>
+  </div>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>
